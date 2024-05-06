@@ -39,9 +39,9 @@ function AddShipping() {
         <ul className="list">
             <li>Select <span className="bold-orange">Customer Name</span> from the dropdown</li>
             <li>If <span className="bold-orange">Customer Name</span> is not in list, click on the <span className="bold-orange">Create</span> button</li>
-            <li>After you've created <span className="bold-orange">Customer Name</span> click on the <span className="bold-orange">Update Customer</span> button to refresh the dropdown</li>
+            <li>After you&apos;ve created <span className="bold-orange">Customer Name</span> click on the <span className="bold-orange">Update Customer</span> button to refresh the dropdown</li>
             <li>Select your <span className="bold-orange">Customer Name</span> from the drop dropdown</li>
-            <li>Follow the above steps for <span className="bold-orange">City Name</span> if it's not in the dropdown</li>
+            <li>Follow the above steps for <span className="bold-orange">City Name</span> if it&apos;s not in the dropdown</li>
             <li>Select your <span className="bold-orange">City Name</span> from the drop down</li>
             <li>Select <span className="bold-orange">State</span> from the drop down</li>
             <li>Repeat those step again if <span className="bold-orange">Carrier Name</span> is not in the list</li>
@@ -68,7 +68,7 @@ function AddShipping() {
             <li>Enter the <span className="bold-orange">Load Value</span></li>
             <li>The <span className="bold-orange">Load Status</span> will be Created by default</li>
             <li>Enter the <span className="bold-orange">Requested Trailer</span> number, if required</li>
-            <li><span className="bold-orange">If you don't know your trailer number, open another tab and go to docklot</span></li>
+            <li><span className="bold-orange">If you don&apos;t know your trailer number, open another tab and go to docklot</span></li>
         </ul>                   
         {/* put add-4.png here */}
         <img src={add_4} alt="add-4" />

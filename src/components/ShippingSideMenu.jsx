@@ -26,37 +26,40 @@ function ShippingSideMenu() {
         <img src={sched_side_1} alt="sched_side_1" />
         <p>- Click on <span className="bold-orange"> Status </span>drop down</p>
         <img src={sched_side_2} alt="sched_side_2" />
-        <p>- Select a <span className="bold-orange"> Status </span>from the drop down</p>
+        <p>- Select a <span className="bold-orange"> Status </span>from the drop down and click on the <span className="bold-orange">Search</span> button</p>
         <img src={sched_side_3} alt="sched_side_3" />
-        <p>- Click on the <span className="bold-orange">Load Type</span> the drop down</p>
+        <p>- Click on the <span className="bold-orange">Load Type</span> drop down</p>
         <img src={sched_side_4} alt="sched_side_4" />
-        <p>- Select a <span className="bold-orange">Load Type</span> from the drop down</p>
+        <p>- Select a <span className="bold-orange">Load Type</span> from the drop down and click on the <span className="bold-orange">Search</span> button</p>
         <img src={sched_side_5} alt="sched_side_5" />
-        <p></p>
+        <p>- Type in the <span className="bold-orange">Search By MBOL#</span> and click on the <span className="bold-orange">Search</span> button</p>
         <img src={sched_side_6} alt="sched_side_6" />
-        <p></p>
+        <p>- Type in the <span className="bold-orange">Search By Load #</span> and click on the <span className="bold-orange">Search</span> button</p>
         <img src={sched_side_7} alt="sched_side_7" />
-        <p></p>
+        <p>- Click on the <span className="bold-orange">Coordinators</span> drop down</p>
         <img src={sched_side_8} alt="sched_side_8" />
-        <p></p>
+        <p>- Select a <span className="bold-orange">Coordinator</span> from the drop down and click on the <span className="bold-orange">Search</span> button</p>
         <img src={sched_side_9} alt="sched_side_9" />
-        <p></p>
+        <p>- Click on the <span className="bold-orange">Carrier</span> drop down</p>
         <img src={sched_side_10} alt="sched_side_10" />
-        <p></p>
+        <p>- Select a <span className="bold-orange">Carrier</span> from the drop down and click on the <span className="bold-orange">Search</span> button</p>
         <img src={sched_side_11} alt="sched_side_11" />
-        <p></p>
+        <p>- Click on the <span className="bold-orange">Customer</span> drop down</p>
         <img src={sched_side_12} alt="sched_side_12" />
-        <p></p>
+        <p>- Select a <span className="bold-orange">Customer</span> from the drop down and click on the <span className="bold-orange">Search</span> button</p>
         <img src={sched_side_13} alt="sched_side_13" />
-        <p></p>
+        <p>- Click on the <span className="bold-orange">Order Date</span> and select a date then click on the <span className="bold-orange">Search</span> button</p>
         <img src={sched_side_14} alt="sched_side_14" />
-        <p></p>
+        <p>- Click on the <span className="bold-orange">Pickup Date</span> and select a date then click on the <span className="bold-orange">Search</span> button</p>
         <img src={sched_side_15} alt="sched_side_15" />
-        <p></p>
+        <p>- Click on the <span className="bold-orange">From Date</span> and select a date</p>
+        <p className="bold-orange">YOU MUST USE &quot;FROM DATE&quot; with the &quot;TO DATE&quot;</p>
         <img src={sched_side_16} alt="sched_side_16" />
-        <p></p>
+        <p>- Click on the <span className="bold-orange">To Date</span> and select a date</p>
+        <p className="bold-orange">YOU MUST USE &quot;FROM DATE&quot; with the &quot;TO DATE&quot;</p>
         <img src={sched_side_17} alt="sched_side_17" />
-        <p></p>
+        <p>- Click on the <span className="bold-orange">Search</span> button</p>
+        <p className="bold-orange">YOU CAN COMBINE SEARCHES</p>
         <img src={sched_side_18} alt="sched_side_18" />        
     </div>
   )

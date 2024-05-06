@@ -1,8 +1,10 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import AddShipping from './components/AddShipping.jsx';
 import AddReceiving from './components/AddReceiving.jsx';
 import ShippingSideMenu from './components/ShippingSideMenu.jsx';
+import Welcome from './components/Welcome.jsx';
 import './App.css';
 
 const menuStyle = {
@@ -15,6 +17,7 @@ const menuStyle = {
   boxSizing: 'border-box',
   left: 0,
   top: 0,
+  textAlign: 'center',
 };
 
 const rightSideStyle = {
@@ -29,7 +32,7 @@ const rightSideStyle = {
 const Menu = ({ onSelect }) => {
   return (
     <div style = { menuStyle }>
-      <h1>Traffic Help</h1>
+      <h1 onClick={() => onSelect('Component0')}>Topics</h1>
       <ul>
         <li className="item" onClick={() => onSelect('Component1')}>Add Shipping Load</li>
         <li className="item" onClick={() => onSelect('Component2')}>Shipping Side Menu</li>
@@ -48,6 +51,8 @@ const App = () => {
 
   const renderComponent = () => {
     switch (selectedComponent) {
+      case 'Component0':
+        return <Welcome />;
       case 'Component1':
         return <AddShipping />;
       case 'Component2':
@@ -55,7 +60,7 @@ const App = () => {
       case 'Component3':
         return <AddReceiving />;
       default:
-        return null;
+        return <Welcome />;
     }
   };
 

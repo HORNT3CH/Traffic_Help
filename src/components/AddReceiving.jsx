@@ -39,9 +39,9 @@ function AddReceiving() {
                 </ul>
             </li>    
             <li>If <span className="bold-orange">Vendor Name</span> is not in list, click on the <span className="bold-orange">Create</span> button</li>
-            <li>After you've created <span className="bold-orange">Vendor Name</span> click on the <span className="bold-orange">Update Vendors</span> button to refresh the dropdown</li>
+            <li>After you&apos;ve created <span className="bold-orange">Vendor Name</span> click on the <span className="bold-orange">Update Vendors</span> button to refresh the dropdown</li>
             <li>Select your <span className="bold-orange">Vendor Name</span> from the drop dropdown</li>
-            <li>Follow the above steps for <span className="bold-orange">Carrier Name</span> if it's not in the dropdown</li>
+            <li>Follow the above steps for <span className="bold-orange">Carrier Name</span> if it&apos;s not in the dropdown</li>
             <li>Select your <span className="bold-orange">Carrier Name</span> from the drop down</li>
             <li>Select <span className="bold-orange">Status</span> from the drop down</li>                                  
         </ul>
@@ -51,7 +51,7 @@ function AddReceiving() {
         <ul className="list">
             <li>Select <span className="bold-orange">Coordinator</span> from the drop down</li>
             <li>Enter the <span className="bold-orange">Requested Trailer</span> number, if required</li>
-            <li><span className="bold-orange">If you don't know your trailer number, open another tab and go to docklot</span></li>
+            <li><span className="bold-orange">If you don&apos;t know your trailer number, open another tab and go to docklot</span></li>
             <li>Enter the <span className="bold-orange">Item List</span></li>
             <li>Enter the <span className="bold-orange">Comments</span></li>
         </ul>
