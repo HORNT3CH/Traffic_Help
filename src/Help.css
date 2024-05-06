@@ -1,0 +1,35 @@
+.bold-orange {
+    color: orange;
+    font-weight: bold;
+}
+
+h2 {
+    color: #fff;
+}
+
+p {
+    color: #fff;
+}
+
+.list {
+    list-style: none;
+    margin-left: 10px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.sub-list {    
+    margin-left: 20px;
+    color: #fff;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.bordered {
+    border: 1px solid orange;
+    border-radius: 5px;
+    padding: 4px;
+}
