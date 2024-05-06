@@ -4,8 +4,10 @@ import PropTypes from 'prop-types';
 import AddShipping from './components/AddShipping.jsx';
 import AddReceiving from './components/AddReceiving.jsx';
 import ShippingSideMenu from './components/ShippingSideMenu.jsx';
+import ReceivingSideMenu from './components/ReceivingSideMenu.jsx';
 import Welcome from './components/Welcome.jsx';
 import './App.css';
+
 
 const menuStyle = {
   position: 'fixed',
@@ -37,6 +39,7 @@ const Menu = ({ onSelect }) => {
         <li className="item" onClick={() => onSelect('Component1')}>Add Shipping Load</li>
         <li className="item" onClick={() => onSelect('Component2')}>Shipping Side Menu</li>
         <li className="item" onClick={() => onSelect('Component3')}>Add Receiving Job</li>
+        <li className="item" onClick={() => onSelect('Component4')}>Receiving Side Menu</li>
       </ul>
     </div>
   );
@@ -59,6 +62,8 @@ const App = () => {
         return <ShippingSideMenu />;
       case 'Component3':
         return <AddReceiving />;
+      case 'Component4':
+        return <ReceivingSideMenu />;
       default:
         return <Welcome />;
     }
