@@ -5,6 +5,8 @@ import AddShipping from './components/AddShipping.jsx';
 import AddReceiving from './components/AddReceiving.jsx';
 import ShippingSideMenu from './components/ShippingSideMenu.jsx';
 import ReceivingSideMenu from './components/ReceivingSideMenu.jsx';
+import LTLSideMenu from './components/LTLSideMenu.jsx';
+import DocklotSideMenu from './components/DocklotSideMenu.jsx';
 import Welcome from './components/Welcome.jsx';
 import './App.css';
 
@@ -40,6 +42,8 @@ const Menu = ({ onSelect }) => {
         <li className="item" onClick={() => onSelect('Component2')}>Shipping Side Menu</li>
         <li className="item" onClick={() => onSelect('Component3')}>Add Receiving Job</li>
         <li className="item" onClick={() => onSelect('Component4')}>Receiving Side Menu</li>
+        <li className="item" onClick={() => onSelect('Component5')}>LTL Side Menu</li>
+        <li className="item" onClick={() => onSelect('Component6')}>Docklot Side Menu</li>
       </ul>
     </div>
   );
@@ -64,6 +68,10 @@ const App = () => {
         return <AddReceiving />;
       case 'Component4':
         return <ReceivingSideMenu />;
+      case 'Component5':
+        return <LTLSideMenu />;
+      case 'Component6':
+        return <DocklotSideMenu />;
       default:
         return <Welcome />;
     }
