@@ -1,35 +1,39 @@
 .bold-orange {
-    color: orange;
-    font-weight: bold;
+  color: orange;
+  font-weight: bold;
 }
 
 h2 {
-    color: #fff;
+  color: #fff;
+}
+
+h3 {
+  color: #fff;
 }
 
 p {
-    color: #fff;
+  color: #fff;
 }
 
 .list {
-    list-style: none;
-    margin-left: 10px;
-    color: #fff;
-    margin-bottom: 10px;
+  list-style: none;
+  margin-left: 10px;
+  color: #fff;
+  margin-bottom: 10px;
 }
 
-.sub-list {    
-    margin-left: 20px;
-    color: #fff;
+.sub-list {
+  margin-left: 20px;
+  color: #fff;
 }
 
 .menu a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 .bordered {
-    border: 1px solid orange;
-    border-radius: 5px;
-    padding: 4px;
+  border: 1px solid orange;
+  border-radius: 5px;
+  padding: 4px;
 }

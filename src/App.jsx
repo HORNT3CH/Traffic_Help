@@ -7,6 +7,7 @@ import ShippingSideMenu from './components/ShippingSideMenu.jsx';
 import ReceivingSideMenu from './components/ReceivingSideMenu.jsx';
 import LTLSideMenu from './components/LTLSideMenu.jsx';
 import DocklotSideMenu from './components/DocklotSideMenu.jsx';
+import AddToDock from './components/AddToDock.jsx';
 import Welcome from './components/Welcome.jsx';
 import './App.css';
 
@@ -44,6 +45,7 @@ const Menu = ({ onSelect }) => {
         <li className="item" onClick={() => onSelect('Component4')}>Receiving Side Menu</li>
         <li className="item" onClick={() => onSelect('Component5')}>LTL Side Menu</li>
         <li className="item" onClick={() => onSelect('Component6')}>Docklot Side Menu</li>
+        <li className="item" onClick={() => onSelect('Component7')}>Add to Dock / Lot</li>
       </ul>
     </div>
   );
@@ -72,6 +74,8 @@ const App = () => {
         return <LTLSideMenu />;
       case 'Component6':
         return <DocklotSideMenu />;
+      case 'Component7':
+        return <AddToDock />;
       default:
         return <Welcome />;
     }
