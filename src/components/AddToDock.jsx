@@ -1,3 +1,4 @@
+import add_trailer from '../assets/add_trailer.png'
 import add_dock_1 from '../assets/add_dock_1.png'
 import add_dock_2 from '../assets/add_dock_2.png'
 import add_dock_3 from '../assets/add_dock_3.png'
@@ -23,6 +24,7 @@ function AddToDock() {
   return (
     <div>
         <h2>Add to Dock <span className="bold-orange">USE THE SAME PROCESS FOR ADD TO LOT</span>(ONLY USE <span className="bold-orange">SELECT LOT</span> INSTEAD OF <span className="bold-orange">SELECT DOCK</span>)</h2>
+        <img src={add_trailer} alt="add_trailer" />
         <div className="add-dock-side" style={gridStyle}>
             <div className="gridItem">
                 <p>- Click on the <span className="bold-orange">Carrier Name</span> drop down</p>
@@ -70,7 +72,7 @@ function AddToDock() {
             </div>
             <div className="gridItem">
                 <p>- Click on the <span className="bold-orange">Status</span> drop down</p>
-                <img src={add_dock_9} alt="add_dock_9" />                
+                <img src={add_dock_9} alt="add_dock_9" />       
             </div>
             <div className="gridItem">
                 <p>- Select a <span className="bold-orange">Status</span> from the drop down</p>

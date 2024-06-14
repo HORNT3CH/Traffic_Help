@@ -8,7 +8,10 @@ import ReceivingSideMenu from './components/ReceivingSideMenu.jsx';
 import LTLSideMenu from './components/LTLSideMenu.jsx';
 import DocklotSideMenu from './components/DocklotSideMenu.jsx';
 import AddToDock from './components/AddToDock.jsx';
+import Staging from './components/Staging.jsx';
 import Welcome from './components/Welcome.jsx';
+import LoadingLive from './components/LoadingLive.jsx';
+import LoadSpot from './components/LoadSpot.jsx';
 import './App.css';
 
 
@@ -46,6 +49,9 @@ const Menu = ({ onSelect }) => {
         <li className="item" onClick={() => onSelect('Component5')}>LTL Side Menu</li>
         <li className="item" onClick={() => onSelect('Component6')}>Docklot Side Menu</li>
         <li className="item" onClick={() => onSelect('Component7')}>Add to Dock / Lot</li>
+        <li className="item" onClick={() => onSelect('Component8')}>Staging a Load</li>
+        <li className="item" onClick={() => onSelect('Component9')}>Loading a Live Load</li>
+        <li className="item" onClick={() => onSelect('Component10')}>Load a Spot Trailer</li>
       </ul>
     </div>
   );
@@ -76,6 +82,12 @@ const App = () => {
         return <DocklotSideMenu />;
       case 'Component7':
         return <AddToDock />;
+      case 'Component8':
+        return <Staging />;
+      case 'Component9':
+        return <LoadingLive />;
+      case 'Component10':
+        return <LoadSpot />;
       default:
         return <Welcome />;
     }

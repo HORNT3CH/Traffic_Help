@@ -102,6 +102,8 @@ function ShippingSideMenu() {
         </div>
         <div className="gridItem">
           <p>- Click on the <span className="bold-orange">Search</span> button</p>
+          <br />
+          <br />
           <img src={sched_side_18} alt="sched_side_18" />
         </div>
       </div>
